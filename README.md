@@ -8,6 +8,7 @@ This AddOn enables all kinds of Seeq users to build powerful Machine Learning mo
 Currently, the model searches through the following models:
 - Classifications: Random Forest Classifier, Knneighbors, Logistic Regression and Gradient Boosting Classifier
 - Regression: Ridge Regression, Random Forest, Gradient Boosting
+
 Additional model types and hyperparameters and number of cross-validation folds to include in GridSearchCV can easily be updated to adapt the AddOn to specific needs.
 
 ### What is the difference between 'Accuracy' and 'Speed' mode?
