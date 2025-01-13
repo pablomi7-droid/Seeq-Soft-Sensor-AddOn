@@ -2,6 +2,12 @@
 This is a simple AddOn tool to predict a signal based on multiple regressor signals with Machine Learning models in Seeq. It can be packaged into a fully functional AddOn in your Seeq Server by following the instructions in https://github.com/seeq12/seeq-addon-templates. 
 
 ### Why use this AddOn?
-This AddOn enables all kinds of Seeq users to build powerful Machine Learning models for signal predictions without creating specific DataLab projects. It can handle both regression and classification problems, searching through different model types, tuning hyperparameters and pushing the predictions to a Seeq Worksheet with only a few clicks. 
+This AddOn enables all kinds of Seeq users to build powerful Machine Learning models for signal predictions without creating specific DataLab projects. It can handle both regression and classification problems, automating data pre-processing steps (data cleaning, feature selection, scaling, one-hot encoding, PCA etc.) testing different model types with cross-validation, tuning hyperparameters and pushing the predictions to a Seeq Worksheet with only a few clicks. 
 
+### What types of models does the AddOn work with?
+Currently, the model searches through the following models:
+- Classifications: Random Forest Classifier, Knneighbors, Logistic Regression and Gradient Boosting Classifier
+- Regression: Ridge Regression, Random Forest, Gradient Boosting
+Additional model types and hyperparameters and number of cross-validation folds to include in GridSearchCV can easily be updated to adapt the AddOn to specific needs.
 
+### What is the difference between 'Accuracy' and 'Speed' mode?
