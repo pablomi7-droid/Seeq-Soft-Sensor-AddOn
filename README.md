@@ -12,7 +12,7 @@ Currently, the model searches through the following models:
 Additional model types, hyperparameters and number of cross-validation folds to include in GridSearchCV can easily be updated to adapt the AddOn to specific needs.
 
 ### What metrics are used to assess model performance?
-The metrics to determine the best estimator depend on whether it's a regression or classification problem and the values of the variable to predict in the training data.These metrics can be substituted for custom metrics if desired. 
+The metrics to determine the best estimator depend on whether it's a regression or classification problem and the values of the variable to predict in the training data. The philosophy behind these metric choices is to choose the most representative metric based on the available data. These metrics can be substituted for custom metrics if desired. 
 - Classification: 
   - F1 Score if the variable is binary
   - Balanced Accuracy if the variable is multiclass
