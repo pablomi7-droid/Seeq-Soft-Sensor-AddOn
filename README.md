@@ -17,8 +17,8 @@ The metrics to determine the best estimator depend on whether it's a regression 
   - F1 Score if the variable is binary
   - Balanced Accuracy if the variable is multiclass
 - Regression:
-  - Inverse of MAE if the values are close to 0
-  - Inverse of MAPE otherwise
+  - Complement of MAE if the values are close to 0
+  - Complement of MAPE otherwise
 
 ### What is the difference between 'Accuracy' and 'Speed' mode?
 By default, the program will work in Accuracy mode, testing all models types and hyperparameter combinations defined in GridSearchCV and generating the predictions with the best estimator found based on the defined scoring metric. In Speed mode, the program will stop the GridSearchCV if it finds a model with metric score higher or equal to 85% and use the first "good enough" model found for predictions.
