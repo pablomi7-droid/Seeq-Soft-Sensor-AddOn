@@ -11,14 +11,14 @@ Currently, the model searches through the following models:
 
 Additional model types, hyperparameters and number of cross-validation folds to include in GridSearchCV can easily be updated to adapt the AddOn to specific needs.
 
-### What metrics determined the model used for predictions?
+### What metrics are used to assess model performance?
 The metrics to determine the best estimator depend on whether it's a regression or classification problem and the values of the variable to predict in the training data.These metrics can be substituted for custom metrics if desired. 
-- Classification:
+- Classification: 
   - F1 Score if the variable is binary
-  - Balanced Accuracy if it's non-binary
+  - Balanced Accuracy if the variable is multiclass
 - Regression:
-  - Inverse of MAPE if the values are not close to 0
-  - Inverse of MAE otherwise
+  - Inverse of MAE if the values are close to 0
+  - Inverse of MAPE otherwise
 
 ### What is the difference between 'Accuracy' and 'Speed' mode?
 By default, the program will work in Accuracy mode, testing all models types and hyperparameter combinations defined in GridSearchCV and generating the predictions with the best estimator found based on the defined scoring metric. In Speed mode, the program will stop the GridSearchCV if it finds a model with metric score higher or equal to 85% and use the first "good enough" model found for predictions.
