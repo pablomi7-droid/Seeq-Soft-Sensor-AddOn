@@ -14,8 +14,7 @@ Additional model types, hyperparameters and number of cross-validation folds to 
 ### What metrics are used to assess model performance?
 The metrics to determine the best estimator depend on whether it's a regression or classification problem and the values of the variable to predict in the training data. The philosophy behind these metric choices is to choose the most representative metric based on the available data. These metrics can be substituted for custom metrics if desired. 
 - Classification: 
-  - F1 Score if the variable is binary
-  - Balanced Accuracy if the variable is multiclass
+  - Balanced Accuracy 
 - Regression:
   - Inverse of MAE if the values are close to 0
   - Complement of MAPE otherwise
