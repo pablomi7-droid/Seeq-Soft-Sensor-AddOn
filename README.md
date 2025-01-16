@@ -17,5 +17,5 @@ The metrics to determine the best estimator depend on whether it's a regression 
   - F1 Score if the variable is binary
   - Balanced Accuracy if the variable is multiclass
 - Regression:
-  - Complement of MAE if the values are close to 0
+  - Inverse of MAE if the values are close to 0
   - Complement of MAPE otherwise
