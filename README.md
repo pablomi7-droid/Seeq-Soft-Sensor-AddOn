@@ -19,7 +19,7 @@ The metrics to determine the best estimator depend on whether it's a regression 
   - Inverse of MAE if the values are close to 0
   - Complement of MAPE otherwise
 
-### User Interface
+### User Interface Preview
 ![addon_tool_example_target_notebook](https://github.com/user-attachments/assets/443b0afb-6955-4d53-a9f5-704567bc3c61)
 
 ### Example Pipepline
