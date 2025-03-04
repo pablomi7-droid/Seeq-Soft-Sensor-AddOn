@@ -20,7 +20,7 @@ The metrics to determine the best estimator depend on whether it's a regression 
   - Complement of MAPE otherwise
 
 ### Loading a pre-trained model
-By default, the AddOn will train a new model every time based on the selected training window. However, it is also possible to load a .pkl pre-trained model, ignoring the training window, speeding up the predictions and ensuring consistent model behavior. To work correctly, the model must be trained with the same features present in the regressors dropdown (with signal ID as feature headers). This feature works natively for scikit estimators, but XGB models may require additional steps (see https://xgboost.readthedocs.io/en/stable/tutorials/saving_model.html)
+By default, the AddOn will train a new model every time based on the selected training window. However, it is also possible to load a pre-trained model (.pkl), ignoring the training window, speeding up the predictions and ensuring consistent model behavior. To work correctly, the model must have been trained with the same features present in the regressors dropdown (with signal ID as feature headers). This feature works natively for scikit estimators, but XGB models may require additional steps (see https://xgboost.readthedocs.io/en/stable/tutorials/saving_model.html).
 
 ### User Interface Preview
 ![addon_tool_example_target_notebook](https://github.com/user-attachments/assets/443b0afb-6955-4d53-a9f5-704567bc3c61)
