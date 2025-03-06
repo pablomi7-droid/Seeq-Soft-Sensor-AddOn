@@ -30,7 +30,7 @@ When the predicted signal is pushed to the Seeq Workbench, the signal metadata w
 - Estimator used for prediction and its parameters
 - Regressors used
 - Metric score
-- Singal mapping (only for multiclass classification)
+- Signal mapping (only for multiclass classification)
 
 ### Example Pipepline
 <img width="408" alt="Captura de pantalla 2025-01-22 093936" src="https://github.com/user-attachments/assets/b41019e4-b0da-46f3-a64c-cfeb94bf5f2d" />
