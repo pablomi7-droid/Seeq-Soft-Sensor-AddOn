@@ -1,4 +1,5 @@
 DateTime==5.5
+imbalanced-learn==0.13.0
 ipydatetime==1.2.0
 ipyvue==1.11.2
 ipyvuetify==1.10.0
@@ -9,7 +10,10 @@ lightgbm==4.5.0
 nvidia-nccl-cu12==2.23.4
 scikit-learn==1.6.0
 scipy==1.14.1
+sklearn-compat==0.1.3
+smogn==0.1.2
 threadpoolctl==3.5.0
+tqdm==4.67.1
 uuid==1.30
 widgetsnbextension==4.0.13
 xgboost==2.1.3
