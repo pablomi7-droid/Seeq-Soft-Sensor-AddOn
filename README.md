@@ -5,7 +5,7 @@ This is a simple AddOn tool to predict a signal based on multiple regressor sign
 This AddOn enables all kinds of Seeq users to build powerful Machine Learning models for signal predictions without creating specific DataLab projects. It can handle both regression and classification problems, automating data pre-processing steps (data cleaning, feature selection, scaling, one-hot encoding, PCA and SMOTE), testing different model types with cross-validation, tuning hyperparameters and pushing the predictions to a Seeq Worksheet with only a few clicks. 
 
 ### What types of models does the AddOn work with?
-Currently, the model searches through the following models:
+Currently, the tool searches through the following models:
 - Classification: Knneighbors, Logistic Regression, Random Forest Classifier, and Gradient Boosting Classifier
 - Regression: Knneighbors, Ridge Regression, Random Forest and Gradient Boosting
 
